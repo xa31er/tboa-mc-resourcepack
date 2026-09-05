@@ -1,5 +1,6 @@
 @ECHO OFF
 REM Compress
+rm rp.zip
 tar -a -u -f "rp.zip" "rp"
 
 SET "FILENAME=rp.zip"
