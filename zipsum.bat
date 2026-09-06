@@ -1,7 +1,9 @@
 @ECHO OFF
 REM Compress
-rm rp.zip
-tar -a -u -f "rp.zip" "rp"
+del rp.zip
+pushd rp
+tar -a -uf ..\rp.zip *
+popd
 
 SET "FILENAME=rp.zip"
 SET "FILE_HASH="
