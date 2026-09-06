@@ -2,7 +2,7 @@
     "providers": [
         {
             "type": "bitmap",
-            "file": "tboa:font/hearts.png",
+            "file": "tboi:font/hearts.png",
             "height": 27,
             "ascent": 2,
             "chars": [
